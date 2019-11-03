@@ -1,0 +1,79 @@
+[info] AccountTransferTests:
+[info] - Test 07: Valid transfer between accounts *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+[info]   at Bank.addTransactionToQueue(Bank.scala:6)
+[info]   at Account.transferTo(Account.scala:36)
+[info]   at AccountTransferTests.$anonfun$new$15(AccountTests.scala:84)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+[info]   ...
+[info] - Test 08: Transfer of negative amount between accounts should fail *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+[info]   at Bank.addTransactionToQueue(Bank.scala:6)
+[info]   at Account.transferTo(Account.scala:36)
+[info]   at AccountTransferTests.$anonfun$new$16(AccountTests.scala:100)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+[info]   ...
+[info] - Test 09: Invalid transfer between accounts due to insufficient funds should lead to transaction status FAILED and no money should be transferred between accounts *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+[info]   at Bank.addTransactionToQueue(Bank.scala:6)
+[info]   at Account.transferTo(Account.scala:36)
+[info]   at AccountTransferTests.$anonfun$new$17(AccountTests.scala:116)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+[info]   ...
+[info] - Test 10: Correct balance amounts after several transfers *** FAILED ***
+[info]   java.lang.InterruptedException: sleep interrupted
+[info]   at java.lang.Thread.sleep(Native Method)
+[info]   at AccountTransferTests.$anonfun$new$18(AccountTests.scala:147)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+[info]   ...
+[info] - Test 11: Failed transactions should retry and potentially succeed with multiple allowed attempts *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+[info]   at Bank.addTransactionToQueue(Bank.scala:6)
+[info]   at Account.transferTo(Account.scala:36)
+[info]   at AccountTransferTests.$anonfun$new$25(AccountTests.scala:163)
+[info]   at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)
+[info]   at AccountTransferTests.$anonfun$new$24(AccountTests.scala:163)
+[info]   at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)
+[info]   at AccountTransferTests.$anonfun$new$23(AccountTests.scala:156)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   ...
+[info] - Test 12: Some transactions should be stopped with only one allowed attempt *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+[info]   at Bank.addTransactionToQueue(Bank.scala:6)
+[info]   at Account.transferTo(Account.scala:36)
+[info]   at AccountTransferTests.$anonfun$new$29(AccountTests.scala:187)
+[info]   at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)
+[info]   at AccountTransferTests.$anonfun$new$28(AccountTests.scala:187)
+[info]   at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)
+[info]   at AccountTransferTests.$anonfun$new$27(AccountTests.scala:180)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   ...

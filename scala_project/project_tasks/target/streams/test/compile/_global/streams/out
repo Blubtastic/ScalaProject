@@ -1,0 +1,16 @@
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\test\scala\AccountTests.scala:12:19: value isLeft is not a member of Unit
+[error]     assert(result.isLeft)
+[error]                   ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\test\scala\AccountTests.scala:19:19: value isRight is not a member of Unit
+[error]     assert(result.isRight)
+[error]                   ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\test\scala\AccountTests.scala:26:19: value isRight is not a member of Unit
+[error]     assert(result.isRight)
+[error]                   ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\test\scala\AccountTests.scala:33:19: value isLeft is not a member of Unit
+[error]     assert(result.isLeft)
+[error]                   ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\test\scala\AccountTests.scala:40:19: value isRight is not a member of Unit
+[error]     assert(result.isRight)
+[error]                   ^
+[error] 5 errors found

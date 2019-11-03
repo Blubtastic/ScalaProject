@@ -1,0 +1,7 @@
+[info] AccountTests:
+[info] - Test 01: Valid account withdrawal
+[info] - Test 02: Invalid account withdrawal should throw exception
+[info] - Test 03: Withdrawal of negative amount should throw exception
+[info] - Test 04: Valid account deposit
+[info] - Test 05: Deposit of negative amount should throw exception
+[info] - Test 06: Correct balance amount after several withdrawals and deposits

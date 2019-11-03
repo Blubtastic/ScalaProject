@@ -1,0 +1,17 @@
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\task1\Main.scala:73:36: ambiguous reference to overloaded definition,
+[error] both method increaseCounter in object Main of type ()Unit
+[error] and  method increaseCounter in object Main of type ()Unit
+[error] match expected type Unit
+[error]     val thread1 = initializeThread(increaseCounter)
+[error]                                    ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\task1\Main.scala:74:36: ambiguous reference to overloaded definition,
+[error] both method increaseCounter in object Main of type ()Unit
+[error] and  method increaseCounter in object Main of type ()Unit
+[error] match expected type Unit
+[error]     val thread2 = initializeThread(increaseCounter)
+[error]                                    ^
+[error] C:\Users\marti\PS (TDT4165)\scala\scala_project\task1\Main.scala:93:9: method increaseCounter is defined twice;
+[error]   the conflicting method increaseCounter was defined at line 68:9
+[error]     def increaseCounter(): Unit = {
+[error]         ^
+[error] three errors found

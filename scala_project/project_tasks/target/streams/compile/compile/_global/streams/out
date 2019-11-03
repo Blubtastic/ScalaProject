@@ -1,0 +1,13 @@
+[warn] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\main\scala\Account.scala:18:17: Adaptation of argument list by inserting () is deprecated: this is unlikely to be what you want.
+[warn]         signature: Left.apply[A, B](value: A): scala.util.Left[A,B]
+[warn]   given arguments: <none>
+[warn]  after adaptation: Left((): Unit)
+[warn]             Left()
+[warn]                 ^
+[warn] C:\Users\marti\PS (TDT4165)\scala\scala_project\project_tasks\src\main\scala\Account.scala:26:17: Adaptation of argument list by inserting () is deprecated: this is unlikely to be what you want.
+[warn]         signature: Left.apply[A, B](value: A): scala.util.Left[A,B]
+[warn]   given arguments: <none>
+[warn]  after adaptation: Left((): Unit)
+[warn]             Left()
+[warn]                 ^
+[warn] two warnings found
